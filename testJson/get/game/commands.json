@@ -1,0 +1,29 @@
+[
+  {
+    "content": "Hello friends!",
+    "type": "sendChat",
+    "playerIndex": 1
+  },
+  {
+    "number": 7,
+    "type": "rollNumber",
+    "playerIndex": 0
+  },
+  {
+    "receiver": 2,
+    "offer": {
+      "brick": 2,
+      "wood": 0,
+      "sheep": -2,
+      "wheat": 0,
+      "ore": 0
+    },
+    "type": "offerTrade",
+    "playerIndex": 0
+  },
+  {
+    "willAccept": false,
+    "type": "acceptTrade",
+    "playerIndex": 0
+  }
+]

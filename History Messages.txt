@@ -1,0 +1,33 @@
+
+return new eG(s, (new StringBuilder()).append(s).append("'s turn just ended").toString());
+
+return new eG(s, (new StringBuilder()).append(s).append(" stole everyones ").append(resource.toString().toLowerCase()).toString());
+
+return new eG(s, (new StringBuilder()).append(s).append(" built a monument and gained a victory point").toString());
+
+return new eG(s, (new StringBuilder()).append(s).append(" upgraded to a city").toString());
+
+return new eG(s, (new StringBuilder()).append(s).append(" built a road").toString());
+
+return new eG(s, (new StringBuilder()).append(s).append(" built a settlement").toString());
+
+return new eG(s, (new StringBuilder()).append(s).append(" built 2 roads").toString());
+
+String s1 = (new StringBuilder()).append(s).append(" moved the robber").toString();
+String s2;
+if(victimIndex > -1) {
+	String s3 = di1.c(victimIndex);
+	s2 = (new StringBuilder()).append(" and robbed ").append(s3).append(".").toString();
+} else {
+   s2 = " but couldn't rob anyone!";
+}
+
+
+
+return new eG(s, (new StringBuilder()).append(s).append(" rolled a ").append(number).append(".").toString());
+
+s1 = "and gained the biggest army";
+return new eG(s, (new StringBuilder()).append(s).append(" used a soldier ").append(s1).toString());
+
+
+return new eG(s, (new StringBuilder()).append(s).append(" used Year of Plenty and got a ").append(resource1.toString().toLowerCase()).append(" and a ").append(resource2.toString().toLowerCase()).toString());
